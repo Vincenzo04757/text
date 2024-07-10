@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        html {
+            min-height: 100%;
+        }
+        .box {
+            color: gray;
+            overflow: hidden;
+            white-space: nowrap;
+            margin: auto;
+        }
+        .text {
+            font-size: 24px;
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+            animation: hlo 1.5s steps(30, end) 2s forwards;
+            animation-iteration-count: infinite;
+            overflow: hidden;
+            margin: auto;
+            display: inline-block;
+        }
+        @keyframes hlo {
+            from {
+                width: 0%;
+            }
+            to {
+                width: 100%;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="box">
+        <p class="text">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Aspernatur et eligendi quae.</p>
+       
+    </div>
+</body>
+</html>
